@@ -1,0 +1,25 @@
+package curso_programacao;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class EstudoScanner {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = Scanner(System.in);
+		
+		String x;
+		x = sc.next();
+		System.out.println("Você digitou: " + x);
+		
+		sc.close();
+
+	}
+
+	private static Scanner Scanner(InputStream in) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

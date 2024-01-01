@@ -1,0 +1,20 @@
+package curso_programacao;
+
+import java.util.Scanner; // Importe a classe Scanner do pacote java.util
+
+public class Main { // Mudei o nome da classe para Main
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in); // Crie o objeto Scanner para entrada do usuário
+
+        String x;
+        x = sc.next();
+        System.out.println("Você digitou: " + x);
+
+        sc.close();
+		
+
+	}
+
+}

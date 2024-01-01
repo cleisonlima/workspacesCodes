@@ -1,0 +1,18 @@
+
+
+package Scanner;
+
+public class ScannerStudo{ // Mudei o nome da classe para ScannerStudo
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(); // Crie o objeto Scanner para entrada do usuário
+
+        String x;
+        x = sc.next();
+        System.out.println("Você digitou: " + x);
+
+        sc.close();
+    }
+}
+
