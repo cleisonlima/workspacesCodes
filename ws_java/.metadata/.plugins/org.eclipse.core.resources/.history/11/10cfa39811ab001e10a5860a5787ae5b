@@ -27,12 +27,9 @@ public class ExercicioProposto2 {
 		double raio = sc.nextDouble();
 		
 		double A = Math.pow(raio, 2.0);
-		double PI = 3.14159;
-		
-		double aep = (A*PI);
 	
 		
-		System.out.printf("AREA = %.4f%n", + aep);
+		System.out.printf("AREA = %.4f%n", + A);
 
 		
 		sc.close();
