@@ -1,0 +1,29 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class ExercicioProposto4 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int numero = sc.nextInt();
+		double numeroHora = sc.nextInt();
+		double valorHora = sc.nextInt();
+		
+		
+		double salario = numeroHora * valorHora;
+		
+		System.out.printf("numero = " + numero);
+		System.out.printf("salario = " + salario);
+		
+
+		sc.close();
+	}
+
+}
+
+	}
+
+}
